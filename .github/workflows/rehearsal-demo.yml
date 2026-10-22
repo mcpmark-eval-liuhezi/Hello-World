@@ -1,0 +1,11 @@
+name: Rehearsal Demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo greeting
+        run: echo "Hello from the rehearsal demo workflow!"
